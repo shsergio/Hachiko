@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400&display=swap');
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(104, 52, 52);
+  border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #F4D03F;
+  border-radius: 10px;
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+}
+.MuiToolbar-root{
+   background: #288588 !important;
+  
+
+  
+}
+/* Agrega estilos personalizados para el mensaje emergente */
+.popup {
+  position: fixed;
+  top: 20px; /* Ajusta esta propiedad para cambiar la distancia desde la parte superior */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #27aae1;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+
+.MuiToolbar-root{
+  background: #ddbc3a;
+}
+.botonsito{
+  border-radius: 14px;
+  padding: 10px 0;
+  width: 140px;
+  border: none;
+  background: #F4D03F;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.botonsito:hover{
+  background-color: #f6cd99;
+}
+
+  
+  /* Estilos para la barra de navegación */
+  nav {
+    background-color: #f8ac49;
+    padding: 10px;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  /* Estilos para la sección "hero" */
+  .hero-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .hero-container {
+    max-width: 1200px; /* Ajusta el ancho del contenedor según tu preferencia */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 36px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Estilos para la imagen "hero" */
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 800px; /* Ajusta la altura máxima según tu preferencia */
+    border-radius: 19px;
+    background-image: url(../images/piz.jpg);
+  }
+  
+  /* Estilos para el contenedor de las tarjetas */
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 13px;
+    border: solid 3px #f8ac49;
+    width: 1200px;
+  }
+  .card-container-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 13px;
+    border: solid 0px #f8ac49;
+    width: 1200px;
+  }
+  
+  /* Estilos para cada tarjeta */
+  .card {
+    text-align: center;
+    width: 300px;
+    padding: 1px;
+    border: 1px #f8ac49;
+    border-radius: 8px;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para las imágenes dentro de las tarjetas */
+  .card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #888;
+  }
+  /* src/styles.css */
+/* Estilos generales de la página */
+
+.footer-container {
+    background-color: #f8ac49;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #666;
+  }
+  
+  /* Estilos para los iconos de redes sociales */
+  /* Si estás utilizando react-icons, estos estilos no son necesarios */
+  
+  .social-icons a svg {
+    /* Ajusta el tamaño de los iconos según tu preferencia */
+    width: 24px;
+    height: 24px;
+  }
+  
